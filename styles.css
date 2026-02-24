@@ -7,7 +7,7 @@ header{
     align-items: center;
 }
 
-ul{
+.nav{
     display: flex;
     padding: 0;
     margin: 0;
