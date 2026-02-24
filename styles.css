@@ -28,10 +28,18 @@ ul{
 .about{
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.aboutText, .aboutImg{
-    width: 50%;
+
+
+.aboutText{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutImg{
+    height: 400px;
+    width: 300px;
 }
